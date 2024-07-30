@@ -54,6 +54,27 @@ noramal distribution
 
 Average tells truth.. 
 
+n = sample size
+N = population size
+
+u = population mean
+    for sample data set we use n-1 [unbiased estimator]
+    biased and unbiased
+    to increase value we use n-1
+
+Types of mean
+    - Arithmetic mean
+    - Geometric mean [ continueous ] 
+    - hormonic mean
+
+Median - it needs to be ordered, we will get centered value
+        - not influated by outliers and scewness
+
+mode - most occured
+range - max-min
+    
+    
+
 
 anomoly
 box-plot
