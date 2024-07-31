@@ -73,9 +73,55 @@ Median - it needs to be ordered, we will get centered value
 mode - most occured
 range - max-min
     
+Reference = https://url-shortener-muruga.vercel.app/l6oa5ia
     
+scaling - making the values range [ -1 , 1 ] , mean = 0 , standard deviation = 1
+	  when your sample exibits properties of normal distribution then we can go with standard scaler [ bell shaped curve in line polot ]
+	
+	
+	standard scaling = for each feature divide by its mean and subract by its standard diviation
+			   Standardize features by removing the mean and scaling to unit variance. The standard score of a sample x is calculated as: z = (x - u) / s.
+			   
+			   from sklearn.preprocessing import StandardScaler
+			   scaler = StandardScaler() 
+         		   data_scaled = scaler.fit_transform(data)
+         		   
+         MinMax scaling = the data should not have outliers
+         		  In this approach, the data is scaled to a fixed range — usually 0 to 1.
+         		  In contrast to standardization, the cost of having this bounded range is that we will end up with smaller standard deviations, which can
+         		  suppress the effect of outliers. Thus MinMax Scalar is sensitive to outliers.
+         		   
+         		   from sklearn.preprocessing import MinMaxScaler
+         		   scaler = MinMaxScaler() 
+         		   data_scaled = scaler.fit_transform(data)
+         		   
+         Robust Scalar (Scaling to median and quantiles) = 
+			  Scaling using median and quantiles consists of subtracting the median to all the observations and then dividing by the interquartile difference.
+			  It Scales features using statistics that are robust to outliers.
+			  
+			  X_scaled = (X — X.median) / IQR
+			  
+			  from sklearn.preprocessing import RobustScaler
+			  scaler = RobustScaler() 
+			  data_scaled = scaler.fit_transform(data)
+			
+			  
+
+normalization
 
 
+maxium abalute scalar
+power tranformaton
+
+feature encoding
+target encoding
+onehot encoding
+
+dot product - projection of one vector over another vector
+
+standard normal distribution
+
+scewness = 1,2,3,4,5,6,7,8,9,10 the mean will be favour to the higher value
 anomoly
 box-plot
 sns
