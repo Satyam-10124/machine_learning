@@ -163,3 +163,8 @@ For further reading and additional resources, please refer to:
 ---
 
 This guide provides a solid foundation for understanding key machine learning concepts. Explore these topics further and apply them to your own projects and problems!
+
+
+entropy
+
+
