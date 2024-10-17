@@ -1,6 +1,7 @@
 # Machine Learning Study Guide
 
 Welcome to the Machine Learning Study Guide! This document provides a comprehensive overview of essential machine learning concepts, methods, and practices. It is designed to offer a solid foundation for both learning and practical application in machine learning.
+This will help you learn Machine Learning 
 
 ## Table of Contents
 
